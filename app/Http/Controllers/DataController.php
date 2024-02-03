@@ -18,7 +18,7 @@ class DataController extends Controller
      */
     public function show($id): JsonResponse
     {
-        $process = 'get_agent_full_data';
+        $process = 'get_agent_profile_' . $id;
 
         try{
             $agent = Agent::with('safeHouses', 'locations', 'weapons')->find($id);

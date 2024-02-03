@@ -20,6 +20,11 @@ class Agent extends Model
         'notes',
     ];
 
+    protected $casts = [
+        'created_at' => 'datetime:Y-m-d H:i:s',
+        'updated_at' => 'datetime:Y-m-d H:i:s',
+    ];
+
     public function locations()
     {
         return $this->hasMany(Location::class, 'agent_in_charge');

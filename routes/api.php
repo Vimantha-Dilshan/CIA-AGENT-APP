@@ -22,5 +22,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::get('agents/{id}', [DataController::class, 'show']);
+Route::get('agents/full/{id}', [DataController::class, 'show']);
+
 Route::post('/agents/store', [AgentController::class, 'store']);
+Route::get('/agents', [AgentController::class, 'index']);
+Route::get('agents/{id}', [AgentController::class, 'show']);
+Route::put('agents/{id}', [AgentController::class, 'update']);
+Route::delete('agents/{id}', [AgentController::class, 'delete']);
