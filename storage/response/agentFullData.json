@@ -1,0 +1,67 @@
+{
+    "success": true,
+    "message": "Success",
+    "status_code": 200,
+    "process": "get_agent_full_data",
+    "data": {
+        "id": 4,
+        "first_name": "John",
+        "last_name": "Doe",
+        "age": 39,
+        "gender": "FEMALE",
+        "address": "466 Gabe Point Apt. 202\nCarterton, WA 36436",
+        "nationality": "Liechtenstein",
+        "passport_id": "a0f7e37d-3727-3a85-88db-0934e62a1d32",
+        "notes": "Similique eos exercitationem eum consequatur ullam voluptate quis.",
+        "safe_houses": [
+            {
+                "house_id": 4,
+                "house": "Turner, Wilkinson and Littel",
+                "security_level": "LEVEL-3",
+                "location_id": 6,
+                "established_id": null,
+                "notes": "Qui iure quaerat eum."
+            }
+        ],
+        "locations": [
+            {
+                "location_id": 4,
+                "location": "Kuphalborough",
+                "latitude": "49.35507500",
+                "longitude": "97.69450600"
+            },
+            {
+                "location_id": 9,
+                "location": "Port Christelleview",
+                "latitude": "5.57786800",
+                "longitude": "-49.74599200"
+            }
+        ],
+        "weapons": [
+            {
+                "weapon": "Glock 17",
+                "bullet_category": "9mm",
+                "manufacturer": "Heathcote, Schmitt and Howe",
+                "purchase_date": "1971-08-18",
+                "history": null,
+                "updated_at": "2024-02-03T10:52:19.000000Z"
+            },
+            {
+                "weapon": "Walther PPQ",
+                "bullet_category": "9mm",
+                "manufacturer": "Breitenberg-Stiedemann",
+                "purchase_date": "1994-08-18",
+                "history": null,
+                "updated_at": "2024-02-03T10:52:19.000000Z"
+            },
+            {
+                "weapon": "Beretta 92FS",
+                "bullet_category": "5.56mm",
+                "manufacturer": "Rolfson-Hickle",
+                "purchase_date": "1976-11-13",
+                "history": null,
+                "updated_at": "2024-02-03T10:52:19.000000Z"
+            }
+        ]
+    }
+}
