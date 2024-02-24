@@ -1,0 +1,10 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+* {
+    font-family: "Martian Mono", monospace !important;
+}
+
+.nav-item.dropdown {
+    display: flex;
+    align-items: center;
+}
